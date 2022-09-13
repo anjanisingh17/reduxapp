@@ -2,6 +2,8 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 
 function Navbar() {
+
+  //useSelector is used to Access the state of redux
 const amount = useSelector(state => state.amount)
 
   return (
